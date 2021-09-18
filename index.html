@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<title>Portafolio Dinamico - Carmen Fernandez </title>
+	
+	<meta name="theme-color" content="#F0DB4F">
+	<meta name="MobileOptimized" content="width">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<link rel="shortcut icon" type="image/png" href="./img/Mariposa.jpg">
+	<link rel="apple-touch-icon" href="./img/Mariposa.png">
+	<link rel="apple-touch-startup-image" href="./img/Mariposa.jpg">
+	<link rel="manifest" href="./manifest.json">
+	  
+		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+		<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Carmen Fernandez</h1>
+				<p>Desarrolladora Web</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Naturaleza</a>
+				<a href="#">Ciudades</a>
+				<a href="#">Personas</a>
+				<a href="#">Carmen</a>
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudades "
+				 data-descripcion="Queretaro De Atarjea"
+			>
+				<div class="item-contenido">
+					<img src="img/ciudad1.png" alt="">
+				</div>
+			</div>
+			
+
+			<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Unidad Jalpan"
+			>
+				<div class="item-contenido">
+					<img src="img/persona1.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+			data-categoria="personas"
+			data-etiquetas="personas mujeres"
+			data-descripcion="La Florida Arroyo"
+	   >
+		   <div class="item-contenido">
+			   <img src="img/persona3.png" alt="">
+		   </div>
+	   </div>
+		
+
+			<div class="item"
+				 data-categoria="carmen"
+				 data-etiquetas="carmen"
+				 data-descripcion="Casita Ecologica"
+			>
+				<div class="item-contenido">
+					<img src="img/animal1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="carmen"
+				 data-etiquetas="carmen"
+				 data-descripcion="Utsjr Unidad Jalpan."
+			>
+				<div class="item-contenido">
+					<img src="img/animal3.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="carmen"
+				 data-etiquetas="carmen"
+				 data-descripcion="Utsjr Unidad Jalpan."
+			>
+				<div class="item-contenido">
+					<img src="img/animal2.png" alt="">
+				</div>
+			</div>
+
+
+
+			<div class="item"
+				 data-categoria="personas"
+				 data-etiquetas="personas mujeres"
+				 data-descripcion="Moctezuma San Luis"
+			>
+				<div class="item-contenido">
+					<img src="img/persona2.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="paisajes"
+				 data-etiquetas="paisajes "
+				 data-descripcion="paisajes"
+			>
+				<div class="item-contenido">
+					<img src="img/paisaje3.png" alt="">
+				</div>
+			</div>
+
+			<div class="item" 
+				 data-categoria="ciudades"
+				 data-etiquetas="ciudades "
+				 data-descripcion="Queretaro De Atarjea."
+			>
+				<div class="item-contenido">
+					<img src="img/ciudad2.png" alt="">
+				</div>
+			</div>
+			<div class="item" 
+			data-categoria="ciudades"
+			data-etiquetas="ciudades "
+			data-descripcion="San Juan Del Rio."
+	   >
+		   <div class="item-contenido">
+			   <img src="img/ciudad3.png" alt="">
+		   </div>
+	   </div>
+	   
+
+			<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="naturaleza "
+				 data-descripcion="Jalpan De Serra Qro Parque Acuatico."
+			>
+				<div class="item-contenido">
+					<img src="img/naturaleza1.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="naturaleza "
+				 data-descripcion="Estadio Guadalajara."
+			>
+			
+				<div class="item-contenido">
+					<img src="img/naturaleza2.png" alt="">
+				</div>
+			</div>
+			<div class="item"
+				 data-categoria="naturaleza"
+				 data-etiquetas="naturaleza "
+				 data-descripcion="Presa Jalpan Qro"
+			>
+				<div class="item-contenido">
+					<img src="img/naturaleza4.png" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.twitter.com/falconmasters" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.facebook.com/falconmasters" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.instagram.com" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio diseñado por <a href="#">Carmen Fernandez</a> - <a href="https://www.falconmasters.com">Universidad Tecnologica Sanjuan Del Rio</a></p>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
