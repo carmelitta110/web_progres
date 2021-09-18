@@ -6,12 +6,12 @@
   "theme_color": "#FF0080",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./sw.js",
   "lang": "es-MX",
   "icons": [
     {
-      "src": "./img/imariposa_1024.png",
+      "src": "./img/mariposa_1024.png",
       "sizes": "1024x1024",
       "type": "image/png"
     },

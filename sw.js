@@ -4,7 +4,7 @@ const CACHE_NAME = 'v1_cache_programador_fitness',
   urlsToCache = [
     './',
 '"https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"',
-    'https://kit.fontawesome.com/2c36e9b7b1.js'
+    'https://kit.fontawesome.com/2c36e9b7b1.js',
     'https://fonts.googleapis.com/css?family=Raleway:400,700',
     'https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2',
     'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
